@@ -33,7 +33,6 @@ export function History() {
                 <td>
                   {formatDistanceToNow(new Date(cycle.startDate), {
                     addSuffix: true,
-                    locale: ptBR,
                   })}
                 </td>
                 <td>
